@@ -1,0 +1,7 @@
+{
+    "chat_filter": true,
+    "encycloDB": false,
+    "addionalBadwords": [
+        "hi"
+    ]
+}

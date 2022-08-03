@@ -1,0 +1,27 @@
+{
+  "name": "terminal-chat",
+  "version": "1.0.0",
+  "description": "simple terminal chat",
+  "main": "index.js",
+  "scripts": {
+    "client": "node client",
+    "server": "node server"
+  },
+  "author": "kijmoshi",
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow-models/toxicity": "^1.2.2",
+    "@tensorflow/tfjs": "1.0",
+    "@tensorflow/tfjs-core": "^1.7.4",
+    "blessed": "^0.1.81",
+    "chalk": "^4.1.2",
+    "ip": "^1.1.8",
+    "moment": "^2.29.4",
+    "prompt-sync": "^4.2.0",
+    "readline-sync": "^1.4.10",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "socket.io": "^4.5.1",
+    "socket.io-client": "^4.5.1"
+  }
+}
